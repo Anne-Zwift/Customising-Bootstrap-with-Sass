@@ -1,0 +1,25 @@
+@use "sass:color";
+@use "variables" as *;
+
+.forgot-password {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin: 20px auto;
+  background: color.adjust($primary-bg, $lightness: 45%);
+  padding: 2rem;
+  border-radius: $border-radius;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  max-width: 400px;
+
+  .heading-h2 {
+    font-size: $heading-h2;
+    color: $heading-color;
+  }
+
+  .btn {
+    background-color: $primary;
+    width: 330px;
+    border-radius: $border-radius;
+  }
+}
