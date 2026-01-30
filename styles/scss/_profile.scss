@@ -1,0 +1,23 @@
+@use 'variables' as *;
+
+.card {
+  /*   display: flex;
+  flex-direction: column; */
+  align-items: left;
+  margin: 20px auto;
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  max-width: 400px;
+  background: $badge-bg;
+  color: $badge-text;
+
+  .avatar-circle {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  .status-text {
+    color: gray;
+  }
+}

@@ -1,8 +1,7 @@
 @use "sass:color";
 @use "variables" as *;
 
-
-.forgot-password {
+.contact-form {
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -11,7 +10,17 @@
   padding: 2rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
   max-width: 400px;
+
+.heading-contact {
+  color: $text-contact;
 }
+
+label {
+  color: $text-contact;
+}
+
 .btn {
-  background-color: $reset-btn-primary;
+  margin-top: 40px;
+}
+
 }

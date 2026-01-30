@@ -1,15 +1,11 @@
-/* @use "../../node_modules/bootstrap/scss/bootstrap.scss" with (
-  $primary: #4fe873, 
-  $border-radius: 1rem, 
-  $font-family-base: "Cascadia Code", 
-);
-@use "_variables" as *; */
-
-@use "variables" as *;
 @use "../../node_modules/bootstrap/scss/bootstrap.scss" as * with (
-$primary: $primary,
-$border-radius: $border-radius,
-$font-family-base: $font-family-base,
-$input-border-radius: $input-border-radius
+$primary: #07a8ff,
+$border-radius: 1rem,
+$input-border-radius: 8px,
+$font-family-base: "Cascadia Code",
 );
+@use 'sass:color';
 @use "custom" as *;
+@use "contact" as *;
+@use "navigation" as *;
+@use "profile" as *;
