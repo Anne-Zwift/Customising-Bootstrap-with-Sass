@@ -1,0 +1,11 @@
+@use "../../node_modules/bootstrap/scss/bootstrap.scss" as * with (
+$primary: #07a8ff,
+$border-radius: 1rem,
+$input-border-radius: 8px,
+$font-family-base: "Cascadia Code",
+);
+@use 'sass:color';
+@use "custom" as *;
+@use "contact" as *;
+@use "navigation" as *;
+@use "profile" as *;

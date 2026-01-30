@@ -1,0 +1,19 @@
+@use 'variables' as *;
+
+
+.navbar .nav-link {
+  color: $secondary;
+
+
+  &:hover {
+    color: lighten($secondary, 30%);
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+}
+
+.navbar-brand {
+  font-size: $font-size-brand;
+} 
